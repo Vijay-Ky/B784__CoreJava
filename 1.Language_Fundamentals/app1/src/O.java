@@ -2,7 +2,7 @@ class O
 {
 	public static void main(String[] a) 
 	{
-		int i =                           0;
+		int i = 0;
 		System.out.println(i);
 	}
 }
@@ -12,3 +12,20 @@ class O
 
 //user defined or reference datatype
 //String
+
+
+//commentsg fgddfdfdfdfdfdfdfdfdsfsdfdsfdfdf
+/* abc
+
+          dsdf
+		  dfsd
+		dfd  f
+		sfsdfdsfdsf
+
+*/
+
+/*
+*abc
+*xyz
+*abc
+*/
