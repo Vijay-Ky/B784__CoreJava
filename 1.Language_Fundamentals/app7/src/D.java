@@ -7,6 +7,5 @@ class D
 		{
 			System.out.println(i);
 		}
-		//System.out.println(i);
 	}
 }

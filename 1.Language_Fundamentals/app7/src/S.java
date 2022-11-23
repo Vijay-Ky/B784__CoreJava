@@ -9,7 +9,7 @@ class S
 			System.out.println("body:" + i);
 			i++;
 		}
-		while ((i++ == 1) || (i++ == 2));
+		while ((i++ == 1) || (i++ == 4) || (i++ == 7));
 		System.out.println("main end");
 		System.out.println(i);
 	}

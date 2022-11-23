@@ -1,6 +1,6 @@
 class C
 {
-	public static void test1()
+	public static void test1()//arg,sig,parameter
 	{
 		System.out.println("from test1");
 	}
@@ -12,5 +12,4 @@ class C
 	{
 		System.out.println("from test2");
 	}
-	
 }

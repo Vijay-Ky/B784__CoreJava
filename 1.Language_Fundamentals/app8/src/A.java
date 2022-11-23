@@ -3,7 +3,7 @@ class A
 	public static void main(String[] args) 
 	{
 		int i = 3;
-		switch(i)
+		switch(i)//int, String, char
 		{
 			case 2:
 				System.out.println("from case 2");

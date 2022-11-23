@@ -13,6 +13,5 @@ class K
 			System.out.println("end");	
 			i++;
 		}
-		
 	}
 }
