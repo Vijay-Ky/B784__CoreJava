@@ -17,8 +17,8 @@ class U
 	public static int test1()
 	{
 		System.out.println("test1:" + "i:" + i + "," + "j:" + j);
-		i += 3;
-		j += i;
+		i += 3;//i = i + 3
+		j += i;//j = j + i 
 		main(null);
 		System.out.println("test1Again:" + "i:" + i + "," + "j:" + j);
 		i += 4;
@@ -43,6 +43,6 @@ class U
 		System.out.println("main:" + i);
 		i += 9;
 		j += i;
-		//System.out.println("main end:" + "i:" + i + "," + "j:" + j);
+		System.out.println("main end:" + "i:" + i + "," + "j:" + j);
 	}
 }
