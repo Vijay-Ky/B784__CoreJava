@@ -1,0 +1,6 @@
+interface K
+{
+	K()
+	{
+	}
+}

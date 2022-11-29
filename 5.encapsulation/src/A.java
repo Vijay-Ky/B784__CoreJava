@@ -1,50 +1,46 @@
-class A 
+class A
 {
-	private String name;
-	private String idNum;
+	private String name; 
+	private int id;
 	private int age;
-
-	public int getAge()
-	{
-		return age;
-	}
 
 	public String getName()
 	{
 		return name;
 	}
-
-	public String getIdnum()
+	public int getId()
 	{
-		return idNum;
+		return id;
+	}
+	public int getAge()
+	{
+		return age;
 	}
 
-	public void setAge(int newAge)
+	public void setName(String name)
 	{
-		age = newAge;
+		this.name = name;
 	}
-
-	public void setName(String newName)
+	public void setId(int id)
 	{
-		name =  newName;
+		this.id = id;
 	}
-
-	public void setIdnum(String newId)
+	public void setAge(int age)
 	{
-		idNum = newId;
+		this.age = age;
 	}
 }
-class MyDriver 
+class B
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		A a1 = new A();
-		System.out.println("Name: " + a1.getName() + " Age: " + a1.getAge() +
-			" Idnum: " + a1.getIdnum());
+		System.out.println("Name: " + a1.getName() + " Id: " + a1.getId() +
+			" Age: " + a1.getAge());
 		a1.setName("vijay");
-		a1.setAge(990);
-		a1.setIdnum("A1420");
-		System.out.println("Name: " + a1.getName() + " Age: " + a1.getAge() +
-			" Idnum: " + a1.getIdnum());
+		a1.setId(101);
+		a1.setAge(55);
+		System.out.println("Name: " + a1.getName() + " Id: " + a1.getId() +
+			" Age: " + a1.getAge());
 	}
 }

@@ -7,9 +7,9 @@ class S
 		x = 10;
 		System.out.println(x);
 	}
-	static void test2(S s1)
+	static void test2(S s2)
 	{
-		s1.i = 20;
+		s2.i = 20;
 	}
 	public static void main(String[] args)
 	{

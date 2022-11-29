@@ -1,10 +1,10 @@
 class E
 {
 	int i;
-	E(int k)
+	E(int i)
 	{
 		System.out.println("K(int)");
-		i = 10;
+		this.i = 10;
 	}
 	public static void main(String[]args)
 	{

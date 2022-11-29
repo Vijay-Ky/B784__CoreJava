@@ -2,6 +2,9 @@ class B
 {
 	B()
 	{
+		//super()
+		//this()
+		//IIB
 		System.out.println("B()");
 	}
 
