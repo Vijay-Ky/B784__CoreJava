@@ -1,7 +1,7 @@
 class P
 {
 	int i;
-	static void test(P obj)
+	static void test(P obj)//P obj = p1;
 	{
 		System.out.println("test: "+ obj.i);
 	}	

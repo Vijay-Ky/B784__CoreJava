@@ -1,7 +1,8 @@
 class O
 {
 	int i;	
-	public static void main(String[]args)	
+
+	static public void main(String[] args)	
 	{
 		O o1 = new O();
 		O o2 = o1;

@@ -1,9 +1,9 @@
 class W
 {
 	int i;
-	static W test(W w1)
+	static W test(W w1)//W w1 = obj
 	{
-		W w2 = new W();
+		W w2 = new W();//w2,rv
 		w2.i = w1.i;
 		return w2;
 	}
