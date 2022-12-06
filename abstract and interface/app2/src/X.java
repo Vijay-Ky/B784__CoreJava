@@ -1,4 +1,0 @@
-interface X
-{
-	int i;
-}

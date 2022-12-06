@@ -1,4 +1,0 @@
-interface N
-{ 
-	int i;
-}

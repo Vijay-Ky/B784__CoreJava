@@ -1,3 +1,0 @@
-abstract final class W
-{ 
-}

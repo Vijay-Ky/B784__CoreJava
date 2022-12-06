@@ -1,6 +1,0 @@
-interface J
-{
-	void test()
-	{
-	}
-}
