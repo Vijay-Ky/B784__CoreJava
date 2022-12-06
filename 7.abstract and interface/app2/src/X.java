@@ -1,0 +1,4 @@
+interface X
+{
+	int i;
+}
