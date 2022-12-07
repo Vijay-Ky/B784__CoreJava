@@ -1,3 +1,4 @@
+//has-a
 class A
 {
 	int i;
@@ -8,10 +9,10 @@ class A
 }
 class F
 {
-	A obj;
-	F(A obj)
+	A obj;//has-a bridge
+	F(A ref)//ref = a1
 	{
-		this.obj = obj;
+		this.obj = ref;//obj = ref
 	}
 	void test2()
 	{
