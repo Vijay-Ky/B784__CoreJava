@@ -1,3 +1,4 @@
+//has-a
 class A
 {
 	int i;

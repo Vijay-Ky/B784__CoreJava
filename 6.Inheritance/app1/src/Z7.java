@@ -1,4 +1,3 @@
-
 //  is-a
 
 class A

@@ -5,10 +5,12 @@ class A
 	{
 		System.out.println("A-test1");
 	}
+	
 }
 class E
 {
-	A obj = new A();
+	A obj = new A();//non-static
+
 	void test2()
 	{
 		System.out.println("E-test2");
