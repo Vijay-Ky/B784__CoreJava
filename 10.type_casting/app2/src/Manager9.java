@@ -4,7 +4,7 @@ class Manager9
 	{
 		D d1 = new D();
 		System.out.println("d1:" + d1);
-		return d1;
+		return (Object)d1;
 	}
 	public static void main(String[] args)
 	{

@@ -3,10 +3,13 @@ class Manager30
 	public static void main(String[] args)
 	{
 		A a1 = new C();
-		if(a1 instanceof A)	
+		if(a1 instanceof Object)	
 		{
-			System.out.println("to A");
-			A a2 = (A)a1;
+			if(a1 instanceof A)
+			{
+				System.out.println("to A");
+				A a2 = (A)a1;
+			}
 			if(a1 instanceof B)
 			{
 				System.out.println("to B");
@@ -17,7 +20,7 @@ class Manager30
 				System.out.println("to C");
 				C c2 = (C)a1;
 			}
-			if(a1 instanceof D)
+			if(a1 instanceof D)//false
 			{
 				System.out.println("to D");
 				D d2 = (D)a1;

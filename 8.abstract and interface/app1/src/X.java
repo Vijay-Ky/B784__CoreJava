@@ -5,6 +5,9 @@ abstract class X
 		System.out.println("X(int)");
 	}
 	abstract void test1();
+
+	//abstract static void test();
+	
 }
 abstract class Y extends X
 {

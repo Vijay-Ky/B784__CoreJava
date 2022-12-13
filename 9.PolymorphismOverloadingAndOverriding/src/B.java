@@ -4,7 +4,7 @@ class B
 	{
 		System.out.println("from test1");
 	}
-	static void test1(int i)
+	private static void test1(int i)
 	{
 		System.out.println("from test1(int)");
 	}

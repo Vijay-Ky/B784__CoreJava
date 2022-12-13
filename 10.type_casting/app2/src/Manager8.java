@@ -6,13 +6,13 @@ class Manager8
 	}
 	public static void main(String[] args)
 	{
-		test(new B());
-		test(new C());
+		test((A)new B());
+		test((A)new C());
 		test(new D());
 		B b1 = new B();
 		test(b1);
 		D d1 = new D();
-		test(d1);
+		test((A)d1);
 		System.out.println("done");
 	}
 }

@@ -7,7 +7,7 @@ class Manager10
 	}	
 	public static void main(String[] args)
 	{
-		A a1 = test();
+		A a1 = (A)test();
 		System.out.println("done");
 	}
 }

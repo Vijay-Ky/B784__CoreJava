@@ -8,6 +8,6 @@ class Manager19
 	{
 		A a1 = new B();
 		test1((B)a1);
-		System.out.println("Hello World!");
+		System.out.println("done");
 	}
 }
