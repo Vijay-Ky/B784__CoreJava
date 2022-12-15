@@ -1,0 +1,3 @@
+class R extends Q
+{
+}

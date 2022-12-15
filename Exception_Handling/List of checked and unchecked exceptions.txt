@@ -1,0 +1,80 @@
+List of Common Checked Exceptions in Java
+Common checked exceptions defined in the java.lang package:
+ReflectiveOperationException
+ClassNotFoundException
+InstantiationException
+IllegalAccessException
+InvocationTargetException
+NoSuchFieldException
+NoSuchMethodException
+CloneNotSupportedException
+InterruptedException
+ 
+Common checked exceptions defined in the java.io package:
+IOException
+EOFException
+FileNotFoundException
+InterruptedIOException
+UnsupportedEncodingException
+UTFDataFormatException
+ObjectStreamException
+InvalidClassException
+InvalidObjectException
+NotSerializableException
+StreamCorruptedException
+WriteAbortedException
+ 
+Common checked exceptions defined in the java.net package (almost are subtypes of IOException):
+SocketException
+BindException
+ConnectException
+HttpRetryException
+MalformedURLException
+ProtocolException
+UnknownHostException
+UnknownServiceException
+ 
+Common checked exceptions defined in the java.sql package:
+SQLException
+BatchUpdateException
+SQLClientInfoException
+SQLNonTransientException
+SQLDataException
+SQLFeatureNotSupportedException
+SQLIntegrityConstraintViolationException
+SQLSyntaxErrorException
+SQLTransientException
+SQLTimeoutException
+SQLTransactionRollbackException
+SQLTransientConnectionException
+SQLRecoverableException
+SQLWarning
+ 
+
+
+List of Common Unchecked Exceptions in Java
+Common unchecked exceptions in the java.lang package:
+ArithmeticException
+IndexOutOfBoundsException
+ArrayIndexOutOfBoundsException
+StringIndexOutOfBoundsException
+ArrayStoreException
+ClassCastException
+EnumConstantNotPresentException
+IllegalArgumentException
+IllegalThreadStateException
+NumberFormatException
+IllegalMonitorStateException
+IllegalStateException
+NegativeArraySizeException
+NullPointerException
+SecurityException
+TypeNotPresentException
+UnsupportedOperationException
+ 
+Common unchecked exceptions in the java.util package:
+ConcurrentModificationException
+EmptyStackException
+NoSuchElementException
+InputMismatchException
+MissingResourceException

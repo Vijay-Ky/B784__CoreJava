@@ -14,7 +14,7 @@ class S extends R
 	}
 	public static void main(String[] args) 
 	{
-		R.test1();
+		//R.test1();
 		test1();
 		test1();
 	}
