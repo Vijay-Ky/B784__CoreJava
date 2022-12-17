@@ -13,6 +13,7 @@ public static void main(String[] args) {
 		System.out.print(i + ", ");
 	}
 	System.out.println();
+
 	System.out.println(Arrays.toString(x));//collection
 	}
 }

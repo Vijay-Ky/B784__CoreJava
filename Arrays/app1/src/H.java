@@ -6,6 +6,7 @@ public class H
 		String []x = new String[i];
 		System.out.println(x.length);
 		System.out.println("------");
+		//array with size 0 or empty array but not null
 		i = 0;
 		String []y = new String[i];
 		System.out.println(y.length);
