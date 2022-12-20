@@ -19,8 +19,8 @@ class Z8
 /*can keep try without a catch block but finally along with try is manadatory.
 possible syntax
 try-catch
-try-catch-finally
 try-catches
+try-catch-finally
 try-catches-finally
 try-finally
 */

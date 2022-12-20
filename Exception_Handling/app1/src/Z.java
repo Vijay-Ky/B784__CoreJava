@@ -12,7 +12,8 @@ class Z
 		catch (ArithmeticException ex)
 		{
 			System.out.println("from catch");
-			ex.printStackTrace();//(System.err);
+			ex.printStackTrace(System.err);
+			//(System.err);
 			System.out.println("catch end");
 		}
 		System.out.println("end of main");

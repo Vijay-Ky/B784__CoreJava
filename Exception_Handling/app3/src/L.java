@@ -9,7 +9,6 @@ class L
 		}
 		catch (ArithmeticException ex)
 		{
-
 		}
 	}
 }

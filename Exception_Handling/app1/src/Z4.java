@@ -12,6 +12,6 @@ class Z4
 		{
 			i = 20;
 		}
-		System.out.println("main end:" + i);
+		System.out.println("main end: " + i);
 	}
 }

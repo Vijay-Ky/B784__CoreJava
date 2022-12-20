@@ -17,6 +17,9 @@ class K
 			System.out.println("Null Pointer Exception");
 			System.out.println("catch end");
 		}
+		//whether exception is there or not
+		//whether the raised exception gets hadled or not
+		//once the control enters the try block compulsory finaly must execute
 		finally
 		{
 			System.out.println("finally");

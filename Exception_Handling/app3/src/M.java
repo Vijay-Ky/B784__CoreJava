@@ -11,6 +11,7 @@ class M
 		{
 			return 20;	
 		}
+		//unreacheable
 		return 30;
 	}
 }

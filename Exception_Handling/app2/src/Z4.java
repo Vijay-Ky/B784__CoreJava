@@ -12,7 +12,15 @@ class Z4
 		{
 			System.out.println(ex);
 			ex = null;
-			System.out.println(ex);
+			try
+			{
+				System.out.println(ex.getMessage());
+			}
+			catch (NullPointerException ex1)
+			{
+				System.out.println("NFE");
+			}
+			
 		}
 		System.out.println("end of main");
 	}

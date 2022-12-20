@@ -10,6 +10,7 @@ class A7
 		{
 			return 10;		
 		}
+		//unreacheable
 		return 30;
 	}
 }

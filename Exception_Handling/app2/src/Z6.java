@@ -6,7 +6,10 @@ class Z6
 		try
 		{
 			System.out.println("try begin");
-			System.exit(0);
+			//emergency exit and finaly will not be executing
+			//System.exit(0);
+			//Runtime.getRuntime().exit(0);
+			//Runtime.getRuntime().halt(1000);
 			System.out.println("try  end");
 		}
 		catch (ArithmeticException ex)

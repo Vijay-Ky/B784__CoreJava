@@ -3,7 +3,7 @@ class H
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("enter something");
+		System.out.println("enter something...");
 		String s1 = new Scanner(System.in).next();
 		System.out.println("main begin");
 		try
