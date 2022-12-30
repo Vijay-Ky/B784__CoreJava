@@ -1,0 +1,7 @@
+enum E
+{
+	;
+	void test()
+	{
+	}
+}
