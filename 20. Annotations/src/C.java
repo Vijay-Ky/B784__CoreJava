@@ -1,0 +1,4 @@
+@interface C
+{
+	Integer test();
+}
